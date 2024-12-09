@@ -1,0 +1,65 @@
+/******************************************************************************
+*                                                                             *
+* Creation Date : 25/11/2024                                                  *
+*                                                                             *
+* Property : (c) This program, code or item is the Intellectual Property of   *
+* Evelyn Neves Barreto. Any use or copy of this code is prohibited without    *
+* the express written authorization of Evelyn. All rights reserved.           *
+*                                                                             *
+*******************************************************************************/
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 240px;
+    height: calc(100vh - 56px);
+    background-color: #ffffff;
+    padding: 16px;
+    overflow-y: auto;
+}
+
+.time-settings h2,
+.keywords-section h2 {
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #030303;
+}
+
+.days-input {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.day-input {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.day-input label {
+    font-size: 14px;
+    color: #606060;
+}
+
+.day-input input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.keywords-section {
+    margin-top: 24px;
+}
+
+#keywordsList {
+    list-style: none;
+    font-size: 14px;
+}
+
+#keywordsList li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f0f0f0;
+    color: #606060;
+}

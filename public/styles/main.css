@@ -1,0 +1,96 @@
+/******************************************************************************
+*                                                                             *
+* Creation Date : 25/11/2024                                                  *
+*                                                                             *
+* Property : (c) This program, code or item is the Intellectual Property of   *
+* Evelyn Neves Barreto. Any use or copy of this code is prohibited without    *
+* the express written authorization of Evelyn. All rights reserved.           *
+*                                                                             *
+*******************************************************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #030303;
+}
+
+.container {
+    display: flex;
+    margin-top: 56px;
+    min-height: calc(100vh - 56px);
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 24px;
+    margin-left: 240px;
+}
+
+.schedule-summary {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 24px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-summary h2 {
+    margin-bottom: 16px;
+    color: #030303;
+}
+
+.schedule-summary-header {
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+
+.summary-stats {
+    font-size: 16px;
+    color: #1a73e8;
+    font-weight: 500;
+}
+
+.summary-stats p {
+    margin-bottom: 8px;
+}
+
+.summary-stats p:last-child {
+    margin-bottom: 0;
+}
+
+.error-message {
+    background-color: #fde8e8;
+    color: #c81e1e;
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    display: none;
+}
+
+.schedule-day {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.schedule-day:last-child {
+    border-bottom: none;
+}
+
+.schedule-day ul {
+    list-style: none;
+    margin-top: 8px;
+}
+
+.schedule-day li {
+    padding: 4px 0;
+    color: #606060;
+}

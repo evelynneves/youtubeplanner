@@ -43,7 +43,7 @@
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-repo/youtube-planner.git
+   git clone https://github.com/evelynneves/youtubeplanner.git
 
 2. Install dependencies:  
    ```bash
